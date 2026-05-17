@@ -1,0 +1,40 @@
+# === Python Environment & Cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === OS & System Files ===
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# === Streamlit Specific ===
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# === Large Data & Models ===
+# Ignores all CSV, JSON, and zip files (datasets)
+*.csv
+*.json
+*.zip
+*.tar.gz
+
+# Ignores large model files (pickle, joblib, weights)
+*.joblib
+*.h5
+*.giga
+*.bin
+
+# === Logs and Tunnels ===
+*.log
+ngrok
+ngrok.exe
